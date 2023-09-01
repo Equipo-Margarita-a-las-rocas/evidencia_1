@@ -1,0 +1,25 @@
+lista = [1,2,3,4,5,6,7,8,9,10]
+
+# Imprimir un valor específico (en este caso el número 4)
+print(lista[3])
+
+# Agregar un nuevo elemento
+lista.append(11)
+print(lista)
+
+# Eliminar un valor específico (en este caso el 11 que acabamos de agregar)
+lista.pop(10)
+print(lista)
+
+# Verificar si existe un valor específico en el diccionario
+if 10 in lista:
+    print ("Si existe el número 10 en la lista")
+
+if 12 in lista:
+    print ("No existe el número 12 en la lista")
+
+
+# Recorrer e imprimir todos los valores en el diccionario
+
+
+
